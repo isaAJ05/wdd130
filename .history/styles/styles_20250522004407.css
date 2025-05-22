@@ -46,7 +46,7 @@ aside{
 
 aside img{
     width: 200px;
-    height: var(--height);
+    height: auto;
 }
 footer{
     margin-top: 15px;

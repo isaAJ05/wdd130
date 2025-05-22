@@ -1,6 +1,5 @@
 :root {
     --background-color: darkblue;
-    --height: auto;
 }
 
 nav {
@@ -15,12 +14,12 @@ nav a {
 }
 
 h1 {
-    color: var(--background-color);
+    color: darkblue;
 }
 
 main img {
     width: 150px;
-    height: var(--height);
+    height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
@@ -46,7 +45,7 @@ aside{
 
 aside img{
     width: 200px;
-    height: var(--height);
+    height: auto;
 }
 footer{
     margin-top: 15px;
