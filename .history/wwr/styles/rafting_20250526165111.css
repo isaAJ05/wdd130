@@ -55,7 +55,8 @@ h1{
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #ffffff;
+    color: h1{ position: absolute; top: 20px; width: 100%; padding: 16px; text-align: center; opacity: 0.7; background-color: var(--accent1-color); color: #fff; como pongo un color blanco mas fuerte
+;
 
 }
 
@@ -66,7 +67,8 @@ h1{
     width: 800px;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #ffffff;
+    color: #fff;
+    text-weight: bold;
 }
 .herodiv article img{
     float: right;
