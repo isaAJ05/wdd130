@@ -1,0 +1,38 @@
+:root {
+    --primary-color: #025595;
+    --secondary-color: 
+    --accent1-color: #FC9F1C;
+    --accent2-color: #A6DEF6;
+    --heading-font: "Play", sans-serif;
+    --body-font: "Raleway", sans-serif;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+h1, h2{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+nav, p, section, article{
+    margin: 16px;
+    padding: 8px
+}
+
+.socialmedia a{
+    text-decoration: none;
+}
