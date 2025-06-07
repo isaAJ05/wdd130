@@ -1,0 +1,138 @@
+:root {
+    --primary-color: #FC9F1C;
+    --secondary-color: #FFE77C;
+    --accent1-color: #025595;
+    --accent2-color: #A6DEF6;
+    --heading-font: "Play", sans-serif;
+    --body-font: "Raleway", sans-serif;
+}
+
+header {
+    margin: 1rem auto;
+    background-color: #fff;
+    color: var(--secondary-color);
+    display: grid;
+	grid-template-columns: 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    
+}
+header img {
+    width: 100px;
+    height: auto;
+    margin-left: 16px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+ header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+h1, h2{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+p, section, article{
+    margin: 16px;
+    padding: 8px;
+}
+.History {
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    grid-gap: 1px;
+}
+.History h2{
+    grid-column: 1/4;
+    text-align: center;
+
+}
+.History img{
+    width: 100%;
+    height: auto;
+}
+.Adventure {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    grid-gap: 15px;
+}
+.Adventure h2{
+    grid-column: 1/6;
+    text-align: center;
+}
+.Adventure img{
+    width: 100%;
+    height: auto;
+}
+figcaption {
+    text-align: center;
+}
+nav {
+    margin: 16px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+	flex: 1 1 auto;
+    
+}
+nav a {
+    text-decoration: none;
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+}
+nav a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.socialmedia a{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.herodiv{
+    position: relative;
+    margin: 1em auto;
+}
+
+.herodiv img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #ffffff;
+
+}
+
+.herodiv article{
+    position: absolute;
+    top: 150px;
+    left: 5px;
+    width: 800px;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #ffffff;
+}
+.herodiv article img{
+    float: right;
+    width: 230px;
+    padding: 8px;
+}
