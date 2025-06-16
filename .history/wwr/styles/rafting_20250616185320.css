@@ -113,7 +113,7 @@ nav a:hover {
     height: auto;
 }
 
-.herodiv h1{
+h1{
     position: absolute;
     top: 20px;
     width: 100%;
@@ -161,7 +161,7 @@ footer p {
 	border-radius: 3px 3px 3px 3px;
     
 }
-.rectangle-3 .header-3 {
+.header-3 {
     width: 463px;
 	height: 36px;
 	color: #FFFFFF;
