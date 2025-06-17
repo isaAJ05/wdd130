@@ -461,7 +461,7 @@ input[type="radio"]{
 	text-align: center;
     
 }
-.rectangle-6 button:hover, .hero-text .btn:hover, .rectangle-7 button:hover {
+.rectangle-6 button:hover, .hero-text .btn:hover {
     background: var(--primary-color);
     color: #fff;
     cursor: pointer;

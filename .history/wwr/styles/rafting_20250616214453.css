@@ -306,7 +306,7 @@ footer p {
 }
 .rectangle-7 {
 	width: 840px;
-	height: 340px;
+	height: 551px;
 	padding: 8px 8px 8px 8px;
 	background: #EDF0F4;
 	border-radius: 3px 3px 3px 3px;
@@ -445,7 +445,7 @@ input[type="radio"]{
 .send {
     padding-left: 360px;
 }
-.rectangle-6 button, .hero button, .rectangle-7 button {
+.rectangle-6 button, .hero button, . {
 	width: 100px;
 	height: 28px;
 	padding: 0px 10px 0px 10px;
@@ -461,7 +461,7 @@ input[type="radio"]{
 	text-align: center;
     
 }
-.rectangle-6 button:hover, .hero-text .btn:hover, .rectangle-7 button:hover {
+.rectangle-6 button:hover, .hero-text .btn:hover {
     background: var(--primary-color);
     color: #fff;
     cursor: pointer;

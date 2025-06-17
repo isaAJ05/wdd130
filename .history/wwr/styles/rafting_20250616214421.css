@@ -306,7 +306,7 @@ footer p {
 }
 .rectangle-7 {
 	width: 840px;
-	height: 340px;
+	height: 551px;
 	padding: 8px 8px 8px 8px;
 	background: #EDF0F4;
 	border-radius: 3px 3px 3px 3px;
@@ -355,7 +355,7 @@ footer p {
 	line-height: 1.1;
 	text-align: left;
 }
-.rectangle-6 .form-title input, .rectangle-7 .form-title input {
+.rectangle-6 .form-title input{
 	width: 225px;
 	height: 28px;
 	background: #FFFFFF;
@@ -370,7 +370,7 @@ footer p {
 	text-align: left;
     margin-top: 4px;
 }
-.rectangle-6 .title label, .rectangle-7 .title label {
+.rectangle-6 .title label{
 	width: 31px;
 	height: 12px;
 	color: #3B4754;
@@ -445,7 +445,7 @@ input[type="radio"]{
 .send {
     padding-left: 360px;
 }
-.rectangle-6 button, .hero button, .rectangle-7 button {
+.rectangle-6 button, .hero button {
 	width: 100px;
 	height: 28px;
 	padding: 0px 10px 0px 10px;
@@ -461,7 +461,7 @@ input[type="radio"]{
 	text-align: center;
     
 }
-.rectangle-6 button:hover, .hero-text .btn:hover, .rectangle-7 button:hover {
+.rectangle-6 button:hover, .hero-text .btn:hover {
     background: var(--primary-color);
     color: #fff;
     cursor: pointer;
